@@ -121,9 +121,13 @@ cursor:pointer;}
   transition: 0.3s;
 }
 
-#submitBtn:active { 
-  color: white;
-  background-color:rgb(88, 0, 105);
+
+
+@media (hover: none) {
+  #submitBtn:active { 
+    color: white;
+    background-color:rgb(88, 0, 105);
+  }
 }
 
 .end{
