@@ -68,6 +68,72 @@ const questions = [
     choice2: "Zayıf yanların veya hatalarım için kendi kendimi eleştiririm.",
     choice3: "Hatalarımdan dolayı ve her zaman kendimi kabahatli bulurum.",
     choice4: "Her aksilik karşısında kendimi hatalı bulurum."
+  }, {
+    choice1: "Kendimi öldürmek gibi düşüncelerim yok.",
+    choice2: "Zaman zaman kendimi öldürmeyi düşündüğüm olur. Fakat yapmıyorum.",
+    choice3: "Kendimi öldürmek isterdim.",
+    choice4: "Fırsatını bulsam kendimi öldürürdüm."
+  }, {
+    choice1: "Her zamankinden fazla içimden ağlamak gelmiyor.",
+    choice2: " Zaman zaman içinden ağlamak geliyor.",
+    choice3: "Çoğu zaman ağlıyorum.",
+    choice4: "Eskiden ağlayabilirdim şimdi istesem de ağlayamıyorum."
+  }, {
+    choice1: "Şimdi her zaman olduğumdan daha sinirli değilim.",
+    choice2: "Eskisine kıyasla daha kolay kızıyor ya da sinirleniyorum.",
+    choice3: " Şimdi hep sinirliyim.",
+    choice4: "Bir zamanlar beni sinirlendiren şeyler şimdi hiç sinirlendirmiyor."
+  }, {
+    choice1: "Başkaları ile görüşmek, konuşmak isteğimi kaybetmedim.",
+    choice2: "Başkaları ile eskiden daha az konuşmak, görüşmek istiyorum.",
+    choice3: "Başkaları ile konuşma ve görüşme isteğimi kaybetmedim.",
+    choice4: "Hiç kimseyle konuşmak görüşmek istemiyorum."
+  }, {
+    choice1: "Eskiden olduğu gibi kolay karar verebiliyorum.",
+    choice2: "Eskiden olduğu kadar kolay karar veremiyorum.",
+    choice3: "Karar verirken eskisine kıyasla çok güçlük çekiyorum.",
+    choice4: "Artık hiç karar veremiyorum."
+  }, {
+    choice1: "Aynada kendime baktığımda değişiklik görmüyorum.",
+    choice2: "Daha yaşlanmış ve çirkinleşmişim gibi geliyor.",
+    choice3: "Görünüşümün çok değiştiğini ve çirkinleştiğimi hissediyorum.",
+    choice4: "Kendimi çok çirkin buluyorum."
+  }, {
+    choice1: "Eskisi kadar iyi çalışabiliyorum.",
+    choice2: "Bir şeyler yapabilmek için gayret göstermem gerekiyor.",
+    choice3: "Herhangi bir şeyi yapabilmek için kendimi çok zorlamam gerekiyor.",
+    choice4: "Hiçbir şey yapamıyorum."
+  }, {
+    choice1: "Her zamanki gibi iyi uyuyabiliyorum.",
+    choice2: "Eskiden olduğu gibi iyi uyuyamıyorum.",
+    choice3: "Her zamankinden 1-2 saat daha erken uyanıyorum ve tekrar uyuyamıyorum.",
+    choice4: "Her zamankinden çok daha erken uyanıyor ve tekrar uyuyamıyorum."
+  },
+  {
+    choice1: "Her zamankinden daha çabuk yorulmuyorum.",
+    choice2: " Her zamankinden daha çabuk yoruluyorum.",
+    choice3: "Yaptığım her şey beni yoruyor.",
+    choice4: "Kendimi hemen hiçbir şey yapamayacak kadar yorgun hissediyorum."
+  }, {
+    choice1: "İştahım her zamanki gibi.",
+    choice2: "İştahım her zamanki kadar iyi değil.",
+    choice3: "İştahım çok azaldı.",
+    choice4: "Artık hiç iştahım yok."
+  }, {
+    choice1: "Son zamanlarda kilo vermedim.",
+    choice2: "İki kilodan fazla kilo verdim.",
+    choice3: "Dört kilodan fazla kilo verdim.",
+    choice4: "Altı kilodan fazla kilo vermeye çalışıyorum."
+  }, {
+    choice1: "Sağlığım beni fazla endişelendirmiyor.",
+    choice2: "Ağrı, sancı, mide bozukluğu veya kabızlık gibi rahatsızlıklar beni endişelendirmiyor.",
+    choice3: "Sağlığım beni endişelendirdiği için başka şeyleri düşünmek zorlaşıyor.",
+    choice4: "Sağlığım hakkında o kadar endişeliyim ki başka hiçbir şey düşünemiyorum."
+  }, {
+    choice1: "Son zamanlarda cinsel konulara olan ilgimde bir değişme fark etmedim.",
+    choice2: "Cinsel konularla eskisinden daha az ilgiliyim.",
+    choice3: "Cinsel konularla şimdi çok daha az ilgiliyim.",
+    choice4: "Cinsel konular olan ilgimi tamamen kaybettim."
   },]
 
 let answers = [];
