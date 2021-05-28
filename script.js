@@ -182,9 +182,6 @@ choicesList.forEach(choice => {
 
 
 const updateQuestions = (objectIndex) => {
-
-  question1.style.backgroundColor = "white";
-  question1.style.color = "black";
   question1.textContent = questions[objectIndex].choice1;
   question2.textContent = questions[objectIndex].choice2;
   question3.textContent = questions[objectIndex].choice3;

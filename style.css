@@ -61,10 +61,31 @@ h2{
   transition: 0.3s;
 }
 
-#fname:hover, #lname:hover {
-  background-color: rgb(88, 0, 105);
-  color: white;
+@media(hover: hover) and (pointer: fine) {
+  #fname:hover, #lname:hover {
+    background-color: rgb(88, 0, 105);
+    color: white;
+  }
+
+  .previous:hover {
+    background-color: black;
+    color: white;
+  }
+
+  #sendMailBtn:hover{
+    background-color: purple;
+    color:white;
+  }
+
+  
+.choices:hover{
+  background-color:rgb(88, 0, 105);
+color: white;
+cursor:pointer;}
+
+
 }
+
 
 .mainUl{
   width: 100%;
@@ -103,15 +124,6 @@ border: 1px solid black;
 transition: 0.3s;
 }
 
-.previous:hover {
-  background-color: black;
-  color: white;
-}
-
-.choices:hover{
-  background-color:rgb(88, 0, 105);
-color: white;
-cursor:pointer;}
 
 #submitBtn { 
   padding: 6px;
@@ -139,7 +151,3 @@ cursor:pointer;}
   transition: 0.3s;
 }
 
-#sendMailBtn:hover{
-  background-color: purple;
-  color:white;
-}
