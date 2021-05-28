@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Psychology Test</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+<body>
+
+  <div class="wrapper">
+    <div class="container">
+      <h1>Welcome!</h1>
+      <h2>Please enter your name to start the test...</h2>
+      <div id="inputContainer">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+      </div>
+      <input type="submit" value="Start" id="submitBtn">
+
+    </div>
+  </div>
+
+  <ul class="mainUl hide">
+    <li id="question1" class="choices 0"></li>
+    <li id="question2" class="choices 1"></li>
+    <li id="question3" class="choices 2"></li>
+    <li id="question4" class="choices 3"></li>
+    <button type="button" class="previous hide">Önceki Soru</button>
+  </ul>
+
+
+  <div class="lastPage">
+    <h1 class="end hide">Click the button below to finish...</h1>
+    <form method="post">
+      <input type="button" class="hide" id="sendMailBtn" value="Finish Test" onclick="sendEmail()" />
+    </form>
+  </div>
+
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
