@@ -63,7 +63,12 @@ const questions = [
     choice2: "Kendi kendimden pek memnun değilim.",
     choice3: "Kendime çok kızıyorum.",
     choice4: "Kendimden nefret ediyorum."
-  }]
+  }, {
+    choice1: "Başkalarından daha kötü olduğumu sanmıyorum",
+    choice2: "Zayıf yanların veya hatalarım için kendi kendimi eleştiririm.",
+    choice3: "Hatalarımdan dolayı ve her zaman kendimi kabahatli bulurum.",
+    choice4: "Her aksilik karşısında kendimi hatalı bulurum."
+  },]
 
 let answers = [];
 
