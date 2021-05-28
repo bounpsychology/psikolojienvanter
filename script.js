@@ -162,6 +162,10 @@ submitButton.addEventListener("click", e => {
 })
 
 
+const sleep = (milliseconds) => {
+  return new Promise(resolve => setTimeout(resolve, milliseconds))
+}
+
 const choicesList = Array.from(document.getElementsByClassName("choices"));
 
 choicesList.forEach(choice => {
@@ -169,8 +173,16 @@ choicesList.forEach(choice => {
   choice.addEventListener("click", e => {
 
     if (questionCounter != questions.length) {
-      proceed(choice);
-      previousButton.classList.remove("hide");
+
+      choice.style.backgroundColor = "green";
+      choice.style.color = "white";
+
+      sleep(500).then(() => {
+        choice.style.backgroundColor = "";
+        choice.style.color = "";
+        proceed(choice);
+        previousButton.classList.remove("hide");
+      })
     } else {
       proceed(choice);
       finishTest();

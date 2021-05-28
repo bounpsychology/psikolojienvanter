@@ -16,8 +16,6 @@ font-size: 17px;
 }
 
 
-
-
 body, html {
   width: 100%;
   height: 100%;
@@ -45,7 +43,7 @@ h1 {
 
 h2{
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 #inputContainer{
@@ -61,30 +59,6 @@ h2{
   transition: 0.3s;
 }
 
-@media(hover: hover) and (pointer: fine) {
-  #fname:hover, #lname:hover {
-    background-color: rgb(88, 0, 105);
-    color: white;
-  }
-
-  .previous:hover {
-    background-color: black;
-    color: white;
-  }
-
-  #sendMailBtn:hover{
-    background-color: purple;
-    color:white;
-  }
-
-  
-.choices:hover{
-  background-color:rgb(88, 0, 105);
-color: white;
-cursor:pointer;}
-
-
-}
 
 
 .mainUl{
@@ -104,8 +78,7 @@ cursor:pointer;}
 }
 
 .choices {
-  padding: 10px;
-  border-bottom: 1px solid purple;
+  padding: 25px;
   width: 50%;
   left: auto;
   right: auto;
@@ -125,6 +98,7 @@ transition: 0.3s;
 }
 
 
+
 #submitBtn { 
   padding: 6px;
   font-size: 1rem;
@@ -132,6 +106,37 @@ transition: 0.3s;
   padding-right: 32px;
   transition: 0.3s;
 }
+
+@media(hover: hover) and (pointer: fine) {
+
+  #submitBtn:hover { 
+    color: white;
+    background-color:rgb(88, 0, 105);
+  }
+  #sendMailBtn:hover{
+    background-color: purple;
+    color:white;
+  }
+
+  .previous:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .choices:hover{
+    background-color:rgb(88, 0, 105);
+  color: white;
+  cursor:pointer;}
+
+
+  #fname:hover, #lname:hover {
+    background-color: rgb(88, 0, 105);
+    color: white;
+  }
+}
+
+
+
 
 .end{
   margin-top: 100px;
