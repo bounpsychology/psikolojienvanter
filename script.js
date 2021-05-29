@@ -262,7 +262,7 @@ function sendEmail() {
   Email.send({
     Host: "smtp.gmail.com",
     Username: "bounpsikolojienvanter@gmail.com",
-    Password: "hakancorba123",
+    Password: `${process.env.PASSWORD}`,
     To: 'anilerc17@gmail.com',
     From: "bounpsikolojienvanter@gmail.com",
     Subject: `Test results of ${firstName} ${lastName}`,
