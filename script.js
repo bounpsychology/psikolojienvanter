@@ -14,6 +14,8 @@ const end = document.querySelector(".end")
 const sendMailBtn = document.querySelector("#sendMailBtn");
 
 
+require("dotenv").config();
+
 
 let firstName;
 let lastName;
