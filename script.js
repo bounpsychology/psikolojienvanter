@@ -1,3 +1,4 @@
+require('dotenv').config();
 const submitButton = document.querySelector("#submitBtn");
 const finishButton = document.querySelector(".finishBtn");
 const firstNameBox = document.querySelector("#fname");
@@ -12,10 +13,6 @@ const question4 = document.querySelector("#question4");
 const previousButton = document.querySelector(".previous");
 const end = document.querySelector(".end")
 const sendMailBtn = document.querySelector("#sendMailBtn");
-
-
-require("dotenv").config();
-
 
 let firstName;
 let lastName;
