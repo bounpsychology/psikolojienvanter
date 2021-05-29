@@ -1,4 +1,3 @@
-require('dotenv').config();
 const submitButton = document.querySelector("#submitBtn");
 const finishButton = document.querySelector(".finishBtn");
 const firstNameBox = document.querySelector("#fname");
@@ -13,6 +12,7 @@ const question4 = document.querySelector("#question4");
 const previousButton = document.querySelector(".previous");
 const end = document.querySelector(".end")
 const sendMailBtn = document.querySelector("#sendMailBtn");
+
 
 let firstName;
 let lastName;
@@ -261,7 +261,7 @@ function sendEmail() {
   Email.send({
     Host: "smtp.gmail.com",
     Username: "bounpsikolojienvanter@gmail.com",
-    Password: `${process.env.PASSWORD}`,
+    Password: `hakancorba123`,
     To: 'anilerc17@gmail.com',
     From: "bounpsikolojienvanter@gmail.com",
     Subject: `Test results of ${firstName} ${lastName}`,
