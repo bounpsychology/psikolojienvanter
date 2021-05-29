@@ -250,29 +250,11 @@ previousButton.addEventListener("click", e => {
 })
 
 
-
 function sendEmail() {
 
-  const answersStr = getResultsString();
-  const body = `<b>Here are the test results of ${firstName} ${lastName}.<br>
-  ${answersStr}`;
+  const D = ['eKqZYA.12a', '.<br>\x0a\x20\x20', 'ted\x20succesf', '312158lsuYTL', '381116WvlbIq', '198914IjXUew', 'esults\x20of\x20', 'bounpsikolo', '\x20the\x20test\x20r', '680722fmVrcW', 'toggle', 'anilerc17@g', 'gmail.com', '750977oCrBmh', 'color', 'jienvanter@', 'hide', 'smtp.gmail.', 'send', 'classList', '<b>Here\x20are', 'Test\x20comple', 'textContent', 'mail.com', '10145NcKeVj', 'ully.', 'Test\x20result', 'green', '1417936gDNuaO', 'style', 'then', 's\x20of\x20', 'com']; const m = V; const s = V; const B = V; const O = V; const X = V; const d = V; const F = V; const E = V; const q = V; const R = V; const z = V; const p = V; const b = V; const K = V; const u = V; const T = V; const Q = V; function V(P, J) { P = P - (0x12b5 * -0x1 + -0x224a + 0x36de); let e = D[P]; return e; } const h = V; const a = V; (function (C, f) { const N = V; const S = V; const G = V; const g = V; const r = V; const Y = V; const o = V; while (!![]) { try { const c = parseInt(N(0x1f8)) + parseInt(N(0x1f7)) + -parseInt(G(0x1eb)) + -parseInt(g(0x1f9)) + parseInt(G(0x1e0)) + parseInt(N(0x1fd)) + -parseInt(G(0x1ef)); if (c === f) { break; } else { C['push'](C['shift']()); } } catch (i) { C['push'](C['shift']()); } } }(D, -0x2 * 0x5c2f8 + -0xbe9f6 + 0x1f0920)); const v = getResultsString(); const l = m(0x1e7) + m(0x1fc) + s(0x1fa) + firstName + '\x20' + lastName + B(0x1f5) + v; const M = {}; M['P'] = s(0x1e4) + m(0x1f3); M['J'] = s(0x1fb) + X(0x1e2) + E(0x1df); M['e'] = q(0x1f4); M['t'] = X(0x1ff) + E(0x1ea); M['x'] = O(0x1fb) + E(0x1e2) + d(0x1df); M['W'] = E(0x1ed) + X(0x1f2) + firstName + '\x20' + lastName; M['Z'] = l; Email[m(0x1e5)](M)[O(0x1f1)](f => { const k = q; const w = X; const L = E; const H = m; const n = p; const A = q; const D0 = u; const D1 = q; const D2 = Q; const D3 = Q; const c = {}; c['I'] = k(0x1e3); c['j'] = k(0x1ee); c['y'] = w(0x1e8) + H(0x1f6) + H(0x1ec); const i = c; sendMailBtn[L(0x1e6)][n(0x1fe)](i['I']); end[L(0x1f0)][H(0x1e1)] = i['j']; end[H(0x1e9)] = i['y']; });
 
 
-  Email.send({
-    Host: "smtp.gmail.com",
-    Username: "bounpsikolojienvanter@gmail.com",
-    Password: `hakancorba123`,
-    To: 'anilerc17@gmail.com',
-    From: "bounpsikolojienvanter@gmail.com",
-    Subject: `Test results of ${firstName} ${lastName}`,
-    Body: body,
-  }).then(
-    message => {
-      sendMailBtn.classList.toggle("hide")
-      end.style.color = "green";
-      end.textContent = "Test completed succesfully."
-    }
-  );
 }
 
 
@@ -292,3 +274,5 @@ const getResultsString = () => {
 
 
 }
+
+
